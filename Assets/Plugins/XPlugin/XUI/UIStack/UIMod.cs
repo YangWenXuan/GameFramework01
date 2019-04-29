@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-//using XPlugin.Localization;
+using XPlugin.Localization;
 
 namespace XUI {
 
@@ -47,13 +47,14 @@ namespace XUI {
 			return result;
 		}
 
-		// public static GameObject GetPrefab(string name) {
-		// 	return LResources.Load<GameObject>(name);
-		// }
+        public static GameObject GetPrefab(string name)
+        {
+            return LResources.Load<GameObject>(name);
+        }
 
-		public static GameObject GetPrefab(string name)
-		{
-			return Resources.Load<GameObject>(name);
-		}
-	}
+        //public static GameObject GetPrefab(string name)
+        //{
+        //	return Resources.Load<GameObject>(name);
+        //}
+    }
 }

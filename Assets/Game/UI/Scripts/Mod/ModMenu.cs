@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using XUI;
 using GameClient;
+using XPlugin.Localization;
+
+using System;//--Enum
+using XPlugin.Security;//--PlayerPrefsAES.GetString()
 
 namespace UI
 {
@@ -10,8 +14,18 @@ namespace UI
     {
         private void Start()
         {
-            Client.Create();
-            MainMenu_Board.Show();
+            LanguageEnum lang = LanguageEnum.unkonwn;
+            Enum.TryParse(PlayerPrefsAES.GetString("lang"), true, out lang);//?????
+            if (lang == LanguageEnum.unkonwn)
+            {
+                lang = Localization.SystemLang;
+            }
+            if (lang == LanguageEnum.unkonwn)
+            {//默认英文
+                lang = LanguageEnum.en;
+            }
+            Localization.Init(lang);
+            LString.Load_UIString();
         }
     }
 }

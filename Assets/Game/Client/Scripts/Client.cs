@@ -1,29 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UI;
 
 namespace GameClient
 {
     public class Client : MonoBehaviour
     {
-        public static Client Ins{get;private set;}
+        public static Client Ins { get; private set; }
 
-        public static Client Create()
+        private void Start()
         {
-            var go=new GameObject("Client");
-            DontDestroyOnLoad(go);
-            Ins=go.AddComponent<Client>();
-            return Ins;
-        }
-        
-        void Start()
-        {
-            
+            Init();
         }
 
-        void Update()
+        static UIModule uiModule;
+        public static UIModule UIModule { get { return uiModule; } }
+
+        void Init()
         {
-            
+            uiModule = new UIModule();
+
+
+            UIModule.Init();
+            //LString.Load_UIString();//加载本地化文件.
         }
     }
 }
