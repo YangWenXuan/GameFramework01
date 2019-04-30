@@ -10,7 +10,7 @@ public static partial class LString
 	/// </summary>
 	public static void Load_UIString()
 	{
-		LocalizedDict.Load("UIString");
+		//LocalizedDict.Load("UIString");
 	}
 	
 	/// <summary>

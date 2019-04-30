@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Game\Client\Scripts\Client.cs" />
      <Compile Include="Assets\Game\Game.cs" />
+     <Compile Include="Assets\Game\UI\Scripts\AlphaBG_Board.cs" />
      <Compile Include="Assets\Game\UI\Scripts\Bottom_Board.cs" />
      <Compile Include="Assets\Game\UI\Scripts\DifficultySelect_Board.cs" />
      <Compile Include="Assets\Game\UI\Scripts\MainMenu_Board.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\Game\UI\Scripts\Utility\ScreenFit.cs" />
      <Compile Include="Assets\Game\UI\Scripts\Utility\UIEventTriggerListener.cs" />
      <Compile Include="Assets\Localized\Generate\UIString.cs" />
+     <Compile Include="Assets\Miscellaneous\Test.cs" />
      <None Include="Assets\Localized\Generate\Resources\zh-CN\UIString.txt" />
      <None Include="Assets\Localized\Generate\Resources\zh-TW\UIString.txt" />
      <None Include="Assets\Localized\Generate\Resources\en-US\UIString.txt" />

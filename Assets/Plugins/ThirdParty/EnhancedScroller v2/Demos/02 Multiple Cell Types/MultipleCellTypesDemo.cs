@@ -47,6 +47,7 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 
             _data.Add(new HeaderData() { category = "Platinum Players" });
             _data.Add(new RowData() { userName = "John Smith", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 21323199 });
+            //_data.Add(new RowData() { userName = "John Smith", userAvatarSpritePath = "avatar_male", userHighScore = 21323199 });
             _data.Add(new RowData() { userName = "Jane Doe", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 20793219 });
             _data.Add(new RowData() { userName = "Julie Prost", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 19932132 });
             _data.Add(new FooterData());

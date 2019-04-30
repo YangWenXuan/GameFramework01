@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/EnhancedScrollerTest.unity
+- path: Assets/Scenes/TestAndroidAndUnity.unity
   isLoaded: 1
   isActive: 1
