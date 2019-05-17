@@ -5,6 +5,7 @@ public class Test : MonoBehaviour {
     int index = 0;
     string angle;
     public Text mtext;
+    public Text testForReporter;
     //一个旋转物体
     public GameObject cube;
     public void OnClick1()
@@ -18,6 +19,9 @@ public class Test : MonoBehaviour {
         angle = jo.Call<string>("makeRotateUnity");
         mtext.text = index.ToString();
         RotateCube(angle);
+
+        Debug.Log("======TestForReporter01======");
+        testForReporter.text="======TestForReporter01======";
     }
     public void OnClick2()
     {
@@ -30,6 +34,8 @@ public class Test : MonoBehaviour {
         //ShowMessage : java对应的方法 
         //Unity : 向这的代码传一个参数
         jo.Call("ShowMessage", "Unity");
+
+        Debug.Log("======TestForReporter02======");
     }
     public void RotateCube(string angle)
     {

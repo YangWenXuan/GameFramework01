@@ -1,0 +1,6 @@
+Doesn't work if you want to upgrade from 3.2 to 4.2 or above. It may work, but it wasn't tested.
+If you want to do so, first upgrade from 3.2 to 4.1 (ask us about the 4.1 package if you don't have it), then from 4.1 to 4.2.
+
+3.2 to 4.1 upgrade:
+After the initial migration is done, you can access this via frame8->OSA->Migration guide, if you'll want to open it faster next time
+http://thefallengames.com/unityassetstore/optimizedscrollviewadapter/Migration%20guide%20from%203.2%20to%204.0.txt

@@ -9,6 +9,24 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
     /// </summary>
     public class Data
     {
+        public selectedChangedDelegate selectedChanged;
+
+
+        private bool isSelected;
+        public bool IsSelected
+        {
+            get{return isSelected;}
+            set{
+                if(isSelected!=value)
+                {
+                    isSelected=value;
+                    if(selectedChanged!=null)
+                    {
+                        selectedChanged(isSelected);
+                    }
+                }
+            }
+        }
     }
 
     /// <summary>
@@ -23,6 +41,10 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
         public string category;
     }
 
+
+
+    //TestAdd.
+    public delegate void selectedChangedDelegate(bool val);
     /// <summary>
     /// This is the data that will store information about users within a group
     /// </summary>
@@ -42,6 +64,26 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
         /// The user's high score
         /// </summary>
         public ulong userHighScore;
+
+
+        //TestAdd
+        // public selectedChangedDelegate selectedChanged;
+
+        // private bool isSelected;
+        // public bool IsSelected
+        // {
+        //     get{return isSelected;}
+        //     set{
+        //         if(isSelected!=value)
+        //         {
+        //             isSelected=value;
+        //             if(selectedChanged!=null)
+        //             {
+        //                 selectedChanged(isSelected);
+        //             }
+        //         }
+        //     }
+        // }
     }
 
     /// <summary>

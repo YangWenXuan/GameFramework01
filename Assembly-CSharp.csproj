@@ -66,6 +66,11 @@
      <Compile Include="Assets\Game\UI\Scripts\Utility\UIEventTriggerListener.cs" />
      <Compile Include="Assets\Localized\Generate\UIString.cs" />
      <Compile Include="Assets\Miscellaneous\CatchMessageObj.cs" />
+     <Compile Include="Assets\Miscellaneous\GooglePlayManager.cs" />
+     <Compile Include="Assets\Miscellaneous\GooglePlayTest.cs" />
+     <Compile Include="Assets\Miscellaneous\Leaderboard.cs" />
+     <Compile Include="Assets\Miscellaneous\Liortal53Extensions.cs" />
+     <Compile Include="Assets\Miscellaneous\NaughtyAttributesTest.cs" />
      <Compile Include="Assets\Miscellaneous\Test.cs" />
      <None Include="Assets\Localized\Generate\Resources\zh-CN\UIString.txt" />
      <None Include="Assets\Localized\Generate\Resources\zh-TW\UIString.txt" />

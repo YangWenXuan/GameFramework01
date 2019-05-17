@@ -4,6 +4,8 @@ using EnhancedUI.EnhancedScroller;
 
 namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {
+
+    public delegate void SelectedDelegate(EnhancedScrollerCellView cellView);
     /// <summary>
     /// This is the base class for the different cell types. We use a base class
     /// to make calling SetData easier in the demo script.
@@ -24,5 +26,7 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
         {
             _data = data;
         }
+
+        // public SelectedDelegate selected01;
     }
 }

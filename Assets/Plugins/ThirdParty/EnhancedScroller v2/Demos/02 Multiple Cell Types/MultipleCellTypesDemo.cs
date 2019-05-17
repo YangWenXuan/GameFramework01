@@ -47,17 +47,16 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 
             _data.Add(new HeaderData() { category = "Platinum Players" });
             _data.Add(new RowData() { userName = "John Smith", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 21323199 });
-            //_data.Add(new RowData() { userName = "John Smith", userAvatarSpritePath = "avatar_male", userHighScore = 21323199 });
             _data.Add(new RowData() { userName = "Jane Doe", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 20793219 });
             _data.Add(new RowData() { userName = "Julie Prost", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 19932132 });
-            _data.Add(new FooterData());
+            //_data.Add(new FooterData());
 
-            _data.Add(new HeaderData() { category = "Gold Players" });
+            //_data.Add(new HeaderData() { category = "Gold Players" });
             _data.Add(new RowData() { userName = "Jim Bob", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 1002132 });
             _data.Add(new RowData() { userName = "Susan Anthony", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 991234 });
-            _data.Add(new FooterData());
+            //_data.Add(new FooterData());
 
-            _data.Add(new HeaderData() { category = "Silver Players" });
+            //_data.Add(new HeaderData() { category = "Silver Players" });
             _data.Add(new RowData() { userName = "Gary Richards", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 905723 });
             _data.Add(new RowData() { userName = "John Doe", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 702318 });
             _data.Add(new RowData() { userName = "Lisa Ford", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 697767 });
@@ -67,7 +66,13 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             _data.Add(new RowData() { userName = "Jackie Jones", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 20826 });
             _data.Add(new RowData() { userName = "Sally Brewer", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 17389 });
             _data.Add(new RowData() { userName = "Joe West", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 2918 });
-            _data.Add(new FooterData());
+            //_data.Add(new FooterData());
+
+            //Test Add
+            // _data.Add(new HeaderData() { category = "Gold Players" });
+            // _data.Add(new RowData() { userName = "Jim Bob", userAvatarSpritePath = resourcePath + "/avatar_male", userHighScore = 1002132 });
+            // _data.Add(new RowData() { userName = "Susan Anthony", userAvatarSpritePath = resourcePath + "/avatar_female", userHighScore = 991234 });
+            // _data.Add(new FooterData());
 
             // tell the scroller to reload now that we have the data
             scroller.ReloadData();
@@ -94,6 +99,9 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
         /// <param name="scroller">The scroller requesting the cell size</param>
         /// <param name="dataIndex">The index of the data that the scroller is requesting</param>
         /// <returns>The size of the cell</returns>
+
+
+        //这里控制复用滚动列表的宽高长度
         public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
         {
             // we will determine the cell height based on what kind of row it is
@@ -106,7 +114,8 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             else if (_data[dataIndex] is RowData)
             {
                 // row views
-                return 100f;
+                // return 100f;
+                return 138;
             }
             else
             {
@@ -128,7 +137,6 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             CellView cellView;
 
             // determin what cell view to get based on the type of the data row
-
             if (_data[dataIndex] is HeaderData)
             {
                 // get a header cell prefab from the scroller, recycling old cells if possible
@@ -140,6 +148,7 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             else if (_data[dataIndex] is RowData)
             {
                 // get a row cell prefab from the scroller, recycling old cells if possible
+
                 cellView = scroller.GetCellView(rowCellViewPrefab) as CellViewRow;
 
                 // optional for clarity: set the cell's name to something to indicate this is a row
@@ -158,8 +167,15 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             // in the CellView base class, saving us from having to call this for each cell type
             cellView.SetData(_data[dataIndex]);
 
+            // cellView.selected = CellViewSelected;
             // return the cellView to the scroller
             return cellView;
+        }
+
+
+        private void CellViewSelected(EnhancedScrollerCellView cellView)
+        {
+            Debug.Log("===============断点02==========");
         }
 
         #endregion

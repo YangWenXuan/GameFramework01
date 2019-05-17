@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\ThirdParty\Liortal53Extensions\Editor\ConsoleRouter.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\Liortal53Extensions\Editor\DecoratorEditor.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Attributes\BaseAttribute.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Attributes\FieldDrawerAttribute.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Attributes\IAttribute.cs" />
@@ -107,6 +109,12 @@
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Utility\IOUtility.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Utility\PropertyUtility.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\Utility\ReflectionUtility.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\BaseOSAWindow.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\CEditor.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\CreateOSAWindow.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\CWiz.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\InitOSAWindow.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\OSA\Scripts\Editor\MenuItems.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Localization\ComponentHelper\Editor\TextLocalizedHelperEditor.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Localization\XLocalization\Editor\CodeScanner.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Localization\XLocalization\Editor\LocalizationMap.cs" />
@@ -117,12 +125,15 @@
      <Compile Include="Assets\Plugins\XPlugin\Update\Editor\UpdateUtilityMenu.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Update\UIUtil\Editor\UIUpdateMenu.cs" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\FieldDrawerDatabaseTemplate.txt" />
+     <None Include="Assets\Plugins\ThirdParty\OSA\Editor\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\MethodDrawerDatabaseTemplate.txt" />
+     <None Include="Assets\Plugins\ThirdParty\OSA\Editor\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyValidatorDatabaseTemplate.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawConditionDatabaseTemplate.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawerDatabaseTemplate.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyMetaDatabaseTemplate.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\NativePropertyDrawerDbTemplate.txt" />
+     <None Include="Assets\Plugins\ThirdParty\OSA\Editor\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
      <None Include="Assets\Plugins\ThirdParty\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyGrouperDatabaseTemplate.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/UnityProject/TestProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -372,6 +383,18 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/PersonalSoftware/Unity2018.3.11/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.105.0">
+ <HintPath>D:/UnityProject/TestProject/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.105.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.105.0">
+ <HintPath>D:/UnityProject/TestProject/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.105.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>D:/UnityProject/TestProject/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.105.0">
+ <HintPath>D:/UnityProject/TestProject/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.105.0.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/UnityProject/TestProject/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

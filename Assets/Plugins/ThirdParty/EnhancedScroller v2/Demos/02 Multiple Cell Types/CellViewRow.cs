@@ -5,6 +5,11 @@ using EnhancedUI.EnhancedScroller;
 
 namespace EnhancedScrollerDemos.MultipleCellTypesDemo
 {
+
+    // public delegate void SelectedDelegate(EnhancedScrollerCellView cellView);
+
+    
+
     /// <summary>
     /// This is the view for the rows
     /// </summary>
@@ -25,6 +30,22 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
         public Text userNameText;
         public Image userAvatarImage;
         public Text userHighScoreText;
+        public Image panel;
+
+        //Test Add 
+        public Color selectedColor;
+        public Color unSelectedColor;
+        public SelectedDelegate selected;
+        void OnDestroy()
+        {
+            if(_data!=null)
+            {
+                _data.selectedChanged-=SelectedChanged;
+            }
+        }
+
+
+
 
         /// <summary>
         /// Override of the base class's SetData function. This links the data
@@ -36,13 +57,46 @@ namespace EnhancedScrollerDemos.MultipleCellTypesDemo
             // call the base SetData to link to the underlying _data
             base.SetData(data);
 
+
+            //Test Add
+            if(_data!=null)
+            {
+                _data.selectedChanged-=SelectedChanged;
+            }
+
             // cast the data as rowData and store the reference
             _rowData = data as RowData;
 
             // update the UI with the data fields
             userNameText.text = _rowData.userName;
             userAvatarImage.sprite = Resources.Load<Sprite>(_rowData.userAvatarSpritePath);
+            // userAvatarImage.sprite = Resources.Load<Sprite>("01/avatar_male");
             userHighScoreText.text = string.Format("{0:n0}", _rowData.userHighScore);
+
+
+            //Test Add
+            _data.selectedChanged -= SelectedChanged;
+            _data.selectedChanged += SelectedChanged;
+
+            SelectedChanged(data.IsSelected);
+        }
+
+
+
+        //Test Add
+        private void SelectedChanged(bool selected)
+        {
+            panel.color=(selected?selectedColor:unSelectedColor);
+        }
+
+        public void OnSelected()
+        {
+            if(selected!=null)
+            {
+                selected(this);
+            }
+
+            // Debug.Log("-============================测试Button是否管用？？");
         }
     }
 }

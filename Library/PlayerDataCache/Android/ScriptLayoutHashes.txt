@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/UnityExportProject
+D:/UnityProject/TestProject/test004.apk
 SceneListBegin?
 Assets/Scenes/TestAndroidAndUnity.unity
 SceneListEnd?
@@ -64,7 +64,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
-3476b9c6e0fe02a922d9739d70cf6324 Assembly-CSharp.dll:.Test
+5df4b0ab894e627e71f79c6e91c7e287 Assembly-CSharp.dll:.Test
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:XUI.UIBehaviour
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -154,6 +154,7 @@ c74fef81bd2c7f967778c8b49bfc0de9 Assembly-CSharp-firstpass.dll:EnhancedUI.Enhanc
 2f0adb78f40195d5bd783edee9a9a2cb Assembly-CSharp-firstpass.dll:XPlugin.Localization.TextLocalizedHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:XPlugin.Update.UpdateManager
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
+52ea989bac26fbe6b315aa1e90696cf8 Assembly-CSharp.dll:.CatchMessageObj
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AlphaBG_Board
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:XUI.UIPool
 9aff6589b225e118021f21ff94b785fd Assembly-CSharp-firstpass.dll:XUI.UIPoolTest
@@ -177,6 +178,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 8e35b263f35ca791fa350375b06fe5ad Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.RefreshDemo.CellView
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GooglePlayTest
 b1cacc837193e5406451d8646a6b809d Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.MultipleCellTypesDemo.CellViewHeader
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.MainMenu.ReturnToMainMenu
 0ddba3674720a337659c9c5640e8106e Assembly-CSharp-firstpass.dll:EnhancedUI.EnhancedScroller.EnhancedScroller
@@ -208,9 +210,10 @@ bf33548ae64e465ce89d744ed2028ffb Assembly-CSharp-firstpass.dll:EnhancedScrollerD
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Game
 8b047ad8b2e51a4e524b5bfc1baa1b1e Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.SnappingDemo.PlayWin
 b4414feb7436f1c443c912cea1994ee5 Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.RemoteResourcesDemo.CellView
+f5b71ef1478d234e92043b227402e4db Assembly-CSharp.dll:.Leaderboard
 6aad9e4b99e645fafdecacd55e04aa87 Assembly-CSharp-firstpass.dll:.BasicCell
 74211b3111b9feb590c4acc9d100fbb8 Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.SelectionDemo.SelectionDemo
-2c56d91187762fa7040aa1f833928eaa Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.MultipleCellTypesDemo.CellViewRow
+4fe3bee7c1820449c76e84f9e77ceee0 Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.MultipleCellTypesDemo.CellViewRow
 30965a19ceeb91ce7894b7e1c3730944 Assembly-CSharp-firstpass.dll:.BasicUsage
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 38e7aa7f65f0f2cd3a6fc5750abdad74 Assembly-CSharp-firstpass.dll:XPlugin.Security.DESKey
@@ -225,4 +228,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 56d17491528e4d51843ee07dcd40e54d Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.SnappingDemo.SlotCellView
 cb770e522f325326d70ac09172fa5a14 Assembly-CSharp-firstpass.dll:EnhancedScrollerDemos.CellEvents.Controller
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UI.MainMenu_Board
-52ea989bac26fbe6b315aa1e90696cf8 Assembly-CSharp.dll:.CatchMessageObj
+4ce15e99c635d2567873d27549d1f16f Assembly-CSharp.dll:.Liortal53Extensions
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.NaughtyAttributesTest
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:.ReporterGUI
+75f08af39a3cbe49b447a8126ea65184 Assembly-CSharp-firstpass.dll:.Reporter

@@ -407,8 +407,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 284.25, y: -28.799988}
-  m_SizeDelta: {x: 519.5, y: -95}
+  m_AnchoredPosition: {x: 454.7, y: -28.799988}
+  m_SizeDelta: {x: 860.4, y: -95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &109415428
 CanvasGroup:
@@ -610,11 +610,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22427360, guid: d443c8e500bc5094a8f11e34e58497bc, type: 3}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22427360, guid: d443c8e500bc5094a8f11e34e58497bc, type: 3}
       propertyPath: m_Pivot.y
-      value: 1.00000012
+      value: 1.0000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d443c8e500bc5094a8f11e34e58497bc, type: 3}
@@ -853,11 +853,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22429858, guid: 26374c73c3d44d740bc8a5cb2df7be03, type: 3}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22429858, guid: 26374c73c3d44d740bc8a5cb2df7be03, type: 3}
       propertyPath: m_Pivot.y
-      value: -2.23517418e-08
+      value: -0.000000022351742
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26374c73c3d44d740bc8a5cb2df7be03, type: 3}
@@ -991,6 +991,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 768106627}
     m_Modifications:
+    - target: {fileID: 135314, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
+      propertyPath: m_Name
+      value: CellViewRow
+      objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1024,8 +1028,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 169
+      value: 335.5
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1033,7 +1049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 833
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1057,11 +1073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_Pivot.x
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 22445110, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
       propertyPath: m_Pivot.y
-      value: .5
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
@@ -1310,7 +1326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1532678792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1405,7 +1421,7 @@ MonoBehaviour:
   rowCellViewPrefab: {fileID: 11470898, guid: 65db571bd9a23e548a21ae2f92fada4d, type: 3}
   footerCellViewPrefab: {fileID: 11459478, guid: d443c8e500bc5094a8f11e34e58497bc,
     type: 3}
-  resourcePath: HeadPicture
+  resourcePath: 01
 --- !u!4 &1649476740
 Transform:
   m_ObjectHideFlags: 0
@@ -1556,8 +1572,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 287, y: -29.25}
-  m_SizeDelta: {x: 500, y: -108.5}
+  m_AnchoredPosition: {x: 290.5, y: -29.25}
+  m_SizeDelta: {x: 507, y: -108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665869771
 MonoBehaviour:
