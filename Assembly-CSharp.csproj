@@ -74,6 +74,7 @@
      <Compile Include="Assets\Miscellaneous\Liortal53Extensions.cs" />
      <Compile Include="Assets\Miscellaneous\NaughtyAttributesTest.cs" />
      <Compile Include="Assets\Miscellaneous\Test.cs" />
+     <Compile Include="Assets\SingletonMVC.cs" />
      <None Include="Assets\Localized\Generate\Resources\zh-CN\UIString.txt" />
      <None Include="Assets\Localized\Generate\Resources\zh-TW\UIString.txt" />
      <None Include="Assets\Localized\Generate\Resources\en-US\UIString.txt" />
@@ -290,6 +291,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/PersonalSoftware/Unity2018.4.0f1/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="UnityDebugExtension">
+ <HintPath>D:/UnityProject/TestProject/Assets/Plugins/ThirdParty/LTHUtility/__extension_method/UnityDebugExtension.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/UnityProject/TestProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -298,9 +302,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/UnityProject/TestProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UnityDebugExtension">
- <HintPath>D:/UnityProject/TestProject/Assets/Plugins/ThirdParty/LTHUtility/__extension_method/UnityDebugExtension.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/PersonalSoftware/Unity2018.4.0f1/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

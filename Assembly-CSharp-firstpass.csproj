@@ -273,6 +273,11 @@
      <Compile Include="Assets\Plugins\ThirdParty\Reporter\MultiKeyDictionary.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\Reporter\Reporter.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\Reporter\ReporterGUI.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\ApplicationBase.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\Controller.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\Model.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\MVC.cs" />
+     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\View.cs" />
      <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\Sound.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Http\HttpManager.cs" />
      <Compile Include="Assets\Plugins\XPlugin\Http\HttpRequest.cs" />
@@ -581,6 +586,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/PersonalSoftware/Unity2018.4.0f1/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="UnityDebugExtension">
+ <HintPath>D:/UnityProject/TestProject/Assets/Plugins/ThirdParty/LTHUtility/__extension_method/UnityDebugExtension.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/UnityProject/TestProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -589,9 +597,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/UnityProject/TestProject/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UnityDebugExtension">
- <HintPath>D:/UnityProject/TestProject/Assets/Plugins/ThirdParty/LTHUtility/__extension_method/UnityDebugExtension.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/PersonalSoftware/Unity2018.4.0f1/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
