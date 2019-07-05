@@ -1,39 +1,36 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using NaughtyAttributes;
+using UnityEngine.U2D;
 #if UNITY_EDITOR
-using System.IO;
 using UnityEditor;
-
 #endif
 
 [CreateAssetMenu(menuName = "Atlas")]
 [ExecuteInEditMode]
-public class Atlas : ScriptableObject, ISerializationCallbackReceiver {
-#if UNITY_EDITOR
-    public DefaultAsset Folder;
-#endif
+public class Atlas : ScriptableObject {
+    public SpriteAtlas SpriteAtlas;
 
     public Sprite[] Sprites;
+    [HideInInspector]
     public string[] SpriteNames;
     public Dictionary<string, Sprite> Dics;
-    
-    
 
-#if UNITY_EDITOR
+#if  UNITY_EDITOR
     [ContextMenu("Pack")]
     [Button()]
     public void Pack() {
-        if (this.Folder == null) {
+        if (this.SpriteAtlas == null) {
             return;
         }
         List<Sprite> spts = new List<Sprite>();
         List<string> sptnames = new List<string>();
+        
+        Sprite[] atlasSpts=new Sprite[this.SpriteAtlas.spriteCount];
+        this.SpriteAtlas.GetSprites(atlasSpts);
 
-        var folderPath = AssetDatabase.GetAssetPath(this.Folder);
-        var files = Directory.GetFiles(folderPath, "*.*", SearchOption.AllDirectories);
-        foreach (var f in files) {
-            var s = AssetDatabase.LoadAssetAtPath<Sprite>(f);
+        foreach (var f in atlasSpts) {
+            var s = AssetDatabase.LoadAssetAtPath<Sprite>(AssetDatabase.GetAssetPath(f.texture));
             if (s != null) {
                 spts.Add(s);
                 sptnames.Add(s.name);
@@ -41,6 +38,7 @@ public class Atlas : ScriptableObject, ISerializationCallbackReceiver {
         }
         this.SpriteNames = sptnames.ToArray();
         this.Sprites = spts.ToArray();
+        EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
     }
@@ -49,7 +47,7 @@ public class Atlas : ScriptableObject, ISerializationCallbackReceiver {
     public void OnBeforeSerialize() {
     }
 
-    public void OnAfterDeserialize() {
+    public void Awake() {
         if (this.Sprites == null) {
             return;
         }
@@ -69,6 +67,9 @@ public class Atlas : ScriptableObject, ISerializationCallbackReceiver {
     }
 
     public Sprite GetSprite(string spriteName) {
+        if (this.Dics == null) {
+            Awake();
+        }
         Sprite ret;
         if (this.Dics.TryGetValue(spriteName, out ret)) {
             return ret;

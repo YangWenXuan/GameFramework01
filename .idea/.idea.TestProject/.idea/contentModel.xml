@@ -66,6 +66,7 @@
           <e p="Leaderboard.cs" t="Include" />
           <e p="Liortal53Extensions.cs" t="Include" />
           <e p="NaughtyAttributesTest.cs" t="Include" />
+          <e p="RotateTest.cs" t="Include" />
           <e p="Test.cs" t="Include" />
         </e>
         <e p="Plugins" t="Include">
@@ -779,6 +780,48 @@
                 <e p="UIPage.cs" t="Include" />
                 <e p="UIStack.cs" t="Include" />
               </e>
+            </e>
+          </e>
+          <e p="XShader" t="Include">
+            <e p="ats Mobile Foliage" t="Include">
+              <e p="AtsMobileVegatation.cs" t="Include" />
+              <e p="documentation.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="atsGrass-Unlit-Wind.shader" t="Include" />
+                <e p="atsVegetation-Unlit-Lightmap-Wind alpha blended 1sided.shader" t="Include" />
+                <e p="atsVegetation-Unlit-Lightmap-Wind alpha blended.shader" t="Include" />
+                <e p="atsVegetation-Unlit-Lightmap-Wind alpha tested.shader" t="Include" />
+                <e p="atsVegetation-Unlit-Lightmap-Wind opaque.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="NormalShaderEditor.cs" t="Include" />
+            </e>
+            <e p="FullParticle" t="Include">
+              <e p="Editor" t="Include">
+                <e p="FullParticleShaderGUI.cs" t="Include" />
+              </e>
+              <e p="FullParticle.shader" t="Include" />
+              <e p="MulMatParticle.cs" t="Include" />
+              <e p="UGUI-Stencil" t="Include">
+                <e p="Debug" t="Include">
+                  <e p="Debug-Stencil.shader" t="Include" />
+                  <e p="DebugStencilInfo.cs" t="Include" />
+                </e>
+                <e p="UI-Default-Stencil.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Include" t="Include">
+              <e p="OutlinePass-Advanced.shader" t="Include" />
+              <e p="OutlinePass.shader" t="Include" />
+            </e>
+            <e p="ShowVertexColor.shader" t="Include" />
+            <e p="WindShader" t="Include">
+              <e p="MADFINGER-Lightmap-Unlit-Wind.shader" t="Include" />
+              <e p="VertexColor.shader" t="Include" />
+              <e p="Wind-Diffuse.shader" t="Include" />
+              <e p="Wind-Unlit.shader" t="Include" />
+              <e p="Wind.cginc" t="Include" />
             </e>
           </e>
         </e>

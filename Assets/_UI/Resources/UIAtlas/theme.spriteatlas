@@ -23,15 +23,15 @@ SpriteAtlas:
     platformSettings: []
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 2
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 965a29cd7b159d444ad8840ffc3bf510, type: 3}
-    totalSpriteSurfaceArea: 3484896
+    totalSpriteSurfaceArea: 3484800
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -43,8 +43,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f09e5d329138c394496a8eff2adb03c2, type: 3}
   - {fileID: 21300000, guid: d02dcba366db0604da2f69030da5eaec, type: 3}
   - {fileID: 21300000, guid: beef3ce3e44b3f74e84060344755a2c3, type: 3}
-  - {fileID: 21300000, guid: 60f1d4a413ef6ea4d856430cf1e3108c, type: 3}
-  - {fileID: 21300000, guid: 2d8938b4cdb0d5f47b955219f8303a61, type: 3}
   - {fileID: 21300000, guid: f7c15535acd86424cb29fdcef5f1f352, type: 3}
   - {fileID: 21300000, guid: b1864245b4d187d4199f722a27c789e0, type: 3}
   - {fileID: 21300000, guid: c99a16a5dcbbe694992d3c50bba6faa8, type: 3}
@@ -53,12 +51,8 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f05dac57e8f8ec54185af1c13c60c715, type: 3}
   - {fileID: 21300000, guid: 2dfd7c7744ebd2646914782543dae052, type: 3}
   - {fileID: 21300000, guid: ce1df9280d0acac439372bffafa870a8, type: 3}
-  - {fileID: 21300000, guid: eda48a28dcfef7d46b822352f89c63ab, type: 3}
-  - {fileID: 21300000, guid: 0c0051488cfeab748b04ed400596e962, type: 3}
-  - {fileID: 21300000, guid: abc956d8f9dec4c4c99faab8023d7bd0, type: 3}
   - {fileID: 21300000, guid: 1ee70e790d6b4564996c582dfa640526, type: 3}
   - {fileID: 21300000, guid: 622e0c996b03a7a4fbc8ed6ac613669b, type: 3}
-  - {fileID: 21300000, guid: a62f8b8aefef23648ae063a7deeee4c3, type: 3}
   - {fileID: 21300000, guid: 188667ca94188d042a0d5f3cc4c2fc87, type: 3}
   - {fileID: 21300000, guid: 63a9fa7bf09a47d47acb767902f46521, type: 3}
   - {fileID: 21300000, guid: 7e0d7d8b5d027494597d2c0b32b4a85a, type: 3}
@@ -82,8 +76,6 @@ SpriteAtlas:
   - EUROPEAN CITIES
   - FOOTBALL
   - AMERICAN CITIES
-  - Hexagon
-  - Circle
   - COLOR
   - MUSIC
   - FITNESS
@@ -92,12 +84,8 @@ SpriteAtlas:
   - FESTIVAL
   - COMPUTER
   - MOVIES
-  - Square
-  - Diamond
-  - Triangle
   - IN THE JUNGLE
   - AT THE BEACH
-  - Polygon
   - MILITARY
   - ANIMAL
   - AT THE HOUSE

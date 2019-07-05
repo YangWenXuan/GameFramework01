@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 69ed2003d47264f8b88cf90cca31313f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: fern_1
+    100002: fern_2
+    100004: fern_3
+    100006: fern_4
+    100008: fern_5
+    100010: fern_6
+    100012: fern_7
+    100014: fern_8
+    100016: fern_9
+    100018: //RootNode
+    400000: fern_1
+    400002: fern_2
+    400004: fern_3
+    400006: fern_4
+    400008: fern_5
+    400010: fern_6
+    400012: fern_7
+    400014: fern_8
+    400016: fern_9
+    400018: //RootNode
+    2300000: fern_1
+    2300002: fern_2
+    2300004: fern_3
+    2300006: fern_4
+    2300008: fern_5
+    2300010: fern_6
+    2300012: fern_7
+    2300014: fern_8
+    2300016: fern_9
+    3300000: fern_1
+    3300002: fern_2
+    3300004: fern_3
+    3300006: fern_4
+    3300008: fern_5
+    3300010: fern_6
+    3300012: fern_7
+    3300014: fern_8
+    3300016: fern_9
+    4300000: fern_atlas
+    4300002: 'fern_atlas '
+    4300004: 'fern_atlas '
+    4300006: 'fern_atlas '
+    4300008: 'fern_atlas '
+    4300010: fern_8
+    4300012: fern_9
+    4300014: fern_7
+    4300016: fern_6
+    4300018: fern_2
+    4300020: fern_5
+    4300022: fern_4
+    4300024: fern_3
+    4300026: fern_1
+    7400000: modo_Anim
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
