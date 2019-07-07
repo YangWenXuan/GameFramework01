@@ -1,1 +1,0 @@
-{"UI_SETTING":"\u8BBE\u7F6E","UI_OK":"\u786E\u5B9A","UI_FORMAT":"\u7B2C{0}\u5173\uFF0C\u7B2C{1}\u7AE0","UI_MULTI_LINE":"\u8FD9\u662F\n\u5F88\u591A\u884C\n\u5F88\u591A\u884C\n\u3002\u3002\u3002","UI_OK_3":"\u786E\u5B9A_3","UI_OK_4":"\u786E\u5B9A_4","UI_Button_Online":"\u8054\u7F51","UI_Button_Localization":"\u5355\u673A"}
