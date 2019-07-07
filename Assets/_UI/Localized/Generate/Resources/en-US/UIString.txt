@@ -1,0 +1,1 @@
+{"UI_SETTING":"Setting","UI_OK":"OK","UI_FORMAT":"Chapter{0},Level{1}","UI_MULTI_LINE":"this is\nmuch line\nmuch line\n\u2026","UI_OK_3":"OK_3","UI_OK_4":"OK_4","UI_Button_Online":"Online","UI_Button_Localization":"Localization"}
