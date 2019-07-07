@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: theme
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 965a29cd7b159d444ad8840ffc3bf510, type: 3}
+    totalSpriteSurfaceArea: 3484896
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d96932208540d784897366c3f2eb0c01, type: 3}
+  - {fileID: 21300000, guid: 3e0c9cc0a2662534587c28c5f5eefdc0, type: 3}
+  - {fileID: 21300000, guid: 8e6c5dc06bce5f045b1da95e7dd7d8b5, type: 3}
+  - {fileID: 21300000, guid: f4bfc20140bf10c459e298a1928e8036, type: 3}
+  - {fileID: 21300000, guid: bc569f41bef143149b5943e7003d2af5, type: 3}
+  - {fileID: 21300000, guid: f09e5d329138c394496a8eff2adb03c2, type: 3}
+  - {fileID: 21300000, guid: d02dcba366db0604da2f69030da5eaec, type: 3}
+  - {fileID: 21300000, guid: beef3ce3e44b3f74e84060344755a2c3, type: 3}
+  - {fileID: 21300000, guid: 60f1d4a413ef6ea4d856430cf1e3108c, type: 3}
+  - {fileID: 21300000, guid: 2d8938b4cdb0d5f47b955219f8303a61, type: 3}
+  - {fileID: 21300000, guid: f7c15535acd86424cb29fdcef5f1f352, type: 3}
+  - {fileID: 21300000, guid: b1864245b4d187d4199f722a27c789e0, type: 3}
+  - {fileID: 21300000, guid: c99a16a5dcbbe694992d3c50bba6faa8, type: 3}
+  - {fileID: 21300000, guid: 8849b1d5929986947b8a0ea287772241, type: 3}
+  - {fileID: 21300000, guid: 4f04ae3748310104bb3da6ee48f4d3f2, type: 3}
+  - {fileID: 21300000, guid: f05dac57e8f8ec54185af1c13c60c715, type: 3}
+  - {fileID: 21300000, guid: 2dfd7c7744ebd2646914782543dae052, type: 3}
+  - {fileID: 21300000, guid: ce1df9280d0acac439372bffafa870a8, type: 3}
+  - {fileID: 21300000, guid: eda48a28dcfef7d46b822352f89c63ab, type: 3}
+  - {fileID: 21300000, guid: 0c0051488cfeab748b04ed400596e962, type: 3}
+  - {fileID: 21300000, guid: abc956d8f9dec4c4c99faab8023d7bd0, type: 3}
+  - {fileID: 21300000, guid: 1ee70e790d6b4564996c582dfa640526, type: 3}
+  - {fileID: 21300000, guid: 622e0c996b03a7a4fbc8ed6ac613669b, type: 3}
+  - {fileID: 21300000, guid: a62f8b8aefef23648ae063a7deeee4c3, type: 3}
+  - {fileID: 21300000, guid: 188667ca94188d042a0d5f3cc4c2fc87, type: 3}
+  - {fileID: 21300000, guid: 63a9fa7bf09a47d47acb767902f46521, type: 3}
+  - {fileID: 21300000, guid: 7e0d7d8b5d027494597d2c0b32b4a85a, type: 3}
+  - {fileID: 21300000, guid: 8accb1cce4655b342a2952bcf8ac8027, type: 3}
+  - {fileID: 21300000, guid: e324ccdc282a44b4ba456563619ecb2c, type: 3}
+  - {fileID: 21300000, guid: cb5a1cfc2e41e69469cc86abcc9c0f2d, type: 3}
+  - {fileID: 21300000, guid: 96ca972dbfd2a174e9795137947080c7, type: 3}
+  - {fileID: 21300000, guid: abcdc64d9303f1b4197ec2d5672c6017, type: 3}
+  - {fileID: 21300000, guid: d29dd26d53db5574ab103867f7cceec3, type: 3}
+  - {fileID: 21300000, guid: c3f0d4bd4eec59849a131460c48188c8, type: 3}
+  - {fileID: 21300000, guid: 671c8f2f9065c264d9625ff3e26abd38, type: 3}
+  - {fileID: 21300000, guid: ff35e1afa93ffff47b7467494732df5a, type: 3}
+  - {fileID: 21300000, guid: 76824cbfc260a2c4ab8aa73b1f614e11, type: 3}
+  - {fileID: 21300000, guid: 29b723cf4b4427044ad981b589264914, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - GAMES
+  - FOOD
+  - LITERATURE
+  - NEW YEARS
+  - SCARY MOVIES
+  - EUROPEAN CITIES
+  - FOOTBALL
+  - AMERICAN CITIES
+  - Hexagon
+  - Circle
+  - COLOR
+  - MUSIC
+  - FITNESS
+  - CARTOON
+  - PREHISTORIC
+  - FESTIVAL
+  - COMPUTER
+  - MOVIES
+  - Square
+  - Diamond
+  - Triangle
+  - IN THE JUNGLE
+  - AT THE BEACH
+  - Polygon
+  - MILITARY
+  - ANIMAL
+  - AT THE HOUSE
+  - AT THE AIRPORT
+  - CHRISTMAS
+  - JOBS
+  - HALLOWEEN
+  - COUNTRY
+  - FASHION
+  - BUILDINGS
+  - OLYMPICS
+  - AT THE ZOO
+  - IN A CAR
+  - AT THE STORE
+  m_Tag: theme
+  m_IsVariant: 0

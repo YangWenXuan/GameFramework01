@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ROOT\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ROOT\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TestProject.647894644.00" t="ExcludeRecursive" />
+    <e p="D:\UnityProject\TestProject" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Client" t="Include">
+          <e p="Client" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Client.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Game.cs" t="Include" />
+        </e>
+        <e p="_UI" t="Include">
+          <e p="Localized" t="Include">
+            <e p="Generate" t="Include">
+              <e p="Resources" t="Include">
+                <e p="en-US" t="Include">
+                  <e p="UIString.txt" t="Include" />
+                </e>
+                <e p="zh-CN" t="Include">
+                  <e p="UIString.txt" t="Include" />
+                </e>
+                <e p="zh-TW" t="Include">
+                  <e p="UIString.txt" t="Include" />
+                </e>
+              </e>
+              <e p="UIString.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Game" t="Include">
+              <e p="LangDropList.cs" t="Include" />
+            </e>
+            <e p="Util" t="Include">
+              <e p="AudioManager.cs" t="Include" />
+              <e p="AudioPlayer.cs" t="Include" />
+              <e p="SettingToggle.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts_UI" t="Include">
+            <e p="AlphaBG_Board.cs" t="Include" />
+            <e p="Bottom_Board.cs" t="Include" />
+            <e p="DifficultySelect_Board.cs" t="Include" />
+            <e p="MainMenu_Board.cs" t="Include" />
+            <e p="Mod" t="Include">
+              <e p="ModMenu.cs" t="Include" />
+              <e p="UIModule.cs" t="Include" />
+            </e>
+            <e p="SettingDialog_Board.cs" t="Include" />
+            <e p="Utility" t="Include">
+              <e p="ScreenFit.cs" t="Include" />
+              <e p="UIEventTriggerListener.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Miscellaneous" t="Include">
+          <e p="CatchMessageObj.cs" t="Include" />
+          <e p="GooglePlayManager.cs" t="Include" />
+          <e p="GooglePlayTest.cs" t="Include" />
+          <e p="Leaderboard.cs" t="Include" />
+          <e p="Liortal53Extensions.cs" t="Include" />
+          <e p="NaughtyAttributesTest.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="ThirdParty" t="Include">
+            <e p="EnhancedScroller v2" t="Include">
+              <e p="Demos" t="Include">
+                <e p="00 Simple" t="Include">
+                  <e p="BasicCell.cs" t="Include" />
+                  <e p="BasicUsage.cs" t="Include" />
+                </e>
+                <e p="01 Simple Demo" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                  <e p="SimpleDemo.cs" t="Include" />
+                </e>
+                <e p="02 Multiple Cell Types" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="CellViewFooter.cs" t="Include" />
+                  <e p="CellViewHeader.cs" t="Include" />
+                  <e p="CellViewRow.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                  <e p="MultipleCellTypesDemo.cs" t="Include" />
+                </e>
+                <e p="03 Selection Demo" t="Include">
+                  <e p="InventoryCellView.cs" t="Include" />
+                  <e p="InventoryData.cs" t="Include" />
+                  <e p="SelectionDemo.cs" t="Include" />
+                </e>
+                <e p="04 Jump To Demo" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Controller.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                </e>
+                <e p="05 Remote Resources" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Controller.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                </e>
+                <e p="06 Snapping" t="Include">
+                  <e p="PlayWin.cs" t="Include" />
+                  <e p="SlotCellView.cs" t="Include" />
+                  <e p="SlotController.cs" t="Include" />
+                  <e p="SlotData.cs" t="Include" />
+                  <e p="SnappingDemo.cs" t="Include" />
+                </e>
+                <e p="07 Refreshing" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Controller.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                </e>
+                <e p="08 View Driven Cell Sizes" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Controller.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                </e>
+                <e p="09 Cell Events" t="Include">
+                  <e p="CellView.cs" t="Include" />
+                  <e p="Controller.cs" t="Include" />
+                  <e p="Data.cs" t="Include" />
+                </e>
+                <e p="Main Menu" t="Include">
+                  <e p="MainMenu.cs" t="Include" />
+                  <e p="ReturnToMainMenu.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Plugins" t="Include">
+                <e p="EnhancedScroller.cs" t="Include" />
+                <e p="EnhancedScrollerCellView.cs" t="Include" />
+                <e p="IEnhancedScrollerDelegate.cs" t="Include" />
+                <e p="SimpleCellView.cs" t="Include" />
+                <e p="SimpleScroller.cs" t="Include" />
+                <e p="SmallList.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+              <e p="Tutorials" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="upgrading from 1.x to 2.x.txt" t="Include" />
+            </e>
+            <e p="Liortal53Extensions" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ConsoleRouter.cs" t="Include" />
+                <e p="DecoratorEditor.cs" t="Include" />
+              </e>
+              <e p="StringLoggingExtensions.cs" t="Include" />
+            </e>
+            <e p="LTHUtility" t="Include">
+              <e p="__extension_method" t="Include">
+                <e p="NavmeshAgentExtension.cs" t="Include" />
+                <e p="TransformExtensionMethods.cs" t="Include" />
+              </e>
+              <e p="AnimatorCheckEnd.cs" t="Include" />
+              <e p="Attr" t="Include">
+                <e p="CheckResourceAttr.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="CheckResourceAttrDraw.cs" t="Include" />
+                  <e p="EnumFlagDrawer.cs" t="Include" />
+                  <e p="RenameDrawer.cs" t="Include" />
+                  <e p="WatchAttrDrawer.cs" t="Include" />
+                </e>
+                <e p="EnumFlagAttr.cs" t="Include" />
+                <e p="RenameAttr.cs" t="Include" />
+                <e p="WatchAttr.cs" t="Include" />
+              </e>
+              <e p="AutoDestroy.cs" t="Include" />
+              <e p="CameraFly" t="Include">
+                <e p="CameraFly.cs" t="Include" />
+                <e p="MouseLook.cs" t="Include" />
+              </e>
+              <e p="CameraLayerCull.cs" t="Include" />
+              <e p="CommonPlayerSetting.cs" t="Include" />
+              <e p="CubeGizmos.cs" t="Include" />
+              <e p="DestroyOnAwake.cs" t="Include" />
+              <e p="DontDestroyThis.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AndroidKeyStoreSetting.cs" t="Include" />
+                <e p="CreateFontFromSpriteSheet.cs" t="Include" />
+                <e p="MeshSortingOrderEditor.cs" t="Include" />
+                <e p="SortingOrderVars.cs" t="Include" />
+                <e p="TrailSortingOrderEditor.cs" t="Include" />
+                <e p="Utility" t="Include">
+                  <e p="BuildNavMesh.cs" t="Include" />
+                  <e p="CleanPlayerPreferences.cs" t="Include" />
+                  <e p="DisableFileTypeOpen.cs" t="Include" />
+                  <e p="FastToggleActive.cs" t="Include" />
+                  <e p="GameObjectPathEditor.cs" t="Include" />
+                  <e p="IsOutOfUV.cs" t="Include" />
+                  <e p="LTHEditorMenu.cs" t="Include" />
+                  <e p="RevertToPrefabAdvance.cs" t="Include" />
+                </e>
+              </e>
+              <e p="FastIntToString.cs" t="Include" />
+              <e p="LayerUtility.cs" t="Include" />
+              <e p="LoadPrefabOnAwake.cs" t="Include" />
+              <e p="LTHPool" t="Include">
+                <e p="Pool.cs" t="Include" />
+                <e p="PoolObjList.cs" t="Include" />
+              </e>
+              <e p="MathUtility.cs" t="Include" />
+              <e p="Move.cs" t="Include" />
+              <e p="PerformanceControl" t="Include">
+                <e p="DeviceLevel.cs" t="Include" />
+                <e p="DisableGameObjectByPerformance.cs" t="Include" />
+              </e>
+              <e p="RangeFloat" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Drawer" t="Include">
+                    <e p="RangeFloatDrawer.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="RangeFloat.cs" t="Include" />
+              </e>
+              <e p="Rotate.cs" t="Include" />
+              <e p="SampleAnimation" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SampleAnimationEditor.cs" t="Include" />
+                </e>
+                <e p="SampleAnimation.cs" t="Include" />
+              </e>
+              <e p="ShowFPS.cs" t="Include" />
+              <e p="ShowGizmosIcon.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="SphereGizmos.cs" t="Include" />
+              <e p="StaticBatchThis.cs" t="Include" />
+              <e p="StopWatchUtil.cs" t="Include" />
+              <e p="StringContact.cs" t="Include" />
+              <e p="UVMove.cs" t="Include" />
+            </e>
+            <e p="NaughtyAttributes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Core" t="Include">
+                  <e p="DrawConditionAttributes" t="Include">
+                    <e p="DrawConditionAttribute.cs" t="Include" />
+                    <e p="HideIfAttribute.cs" t="Include" />
+                    <e p="ShowIfAttribute.cs" t="Include" />
+                  </e>
+                  <e p="DrawerAttributes" t="Include">
+                    <e p="ButtonAttribute.cs" t="Include" />
+                    <e p="DisableIfAttribute.cs" t="Include" />
+                    <e p="DrawerAttribute.cs" t="Include" />
+                    <e p="DropdownAttribute.cs" t="Include" />
+                    <e p="EnableIfAttribute.cs" t="Include" />
+                    <e p="MinMaxSliderAttribute.cs" t="Include" />
+                    <e p="ProgressBarAttribute.cs" t="Include" />
+                    <e p="ReadOnlyAttribute.cs" t="Include" />
+                    <e p="ReorderableListAttribute.cs" t="Include" />
+                    <e p="ResizableTextAreaAttribute.cs" t="Include" />
+                    <e p="ShowAssetPreviewAttribute.cs" t="Include" />
+                    <e p="ShowNativePropertyAttribute.cs" t="Include" />
+                    <e p="ShowNonSerializedFieldAttribute.cs" t="Include" />
+                    <e p="SliderAttribute.cs" t="Include" />
+                  </e>
+                  <e p="GroupAttributes" t="Include">
+                    <e p="BoxGroupAttribute.cs" t="Include" />
+                    <e p="GroupAttribute.cs" t="Include" />
+                  </e>
+                  <e p="MetaAttributes" t="Include">
+                    <e p="InfoBoxAttribute.cs" t="Include" />
+                    <e p="MetaAttribute.cs" t="Include" />
+                    <e p="OnValueChangedAttribute.cs" t="Include" />
+                  </e>
+                  <e p="NaughtyAttribute.cs" t="Include" />
+                  <e p="ValidatorAttributes" t="Include">
+                    <e p="MaxValueAttribute.cs" t="Include" />
+                    <e p="MinValueAttribute.cs" t="Include" />
+                    <e p="RequiredAttribute.cs" t="Include" />
+                    <e p="ValidateInputAttribute.cs" t="Include" />
+                    <e p="ValidatorAttribute.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="Attributes" t="Include">
+                    <e p="BaseAttribute.cs" t="Include" />
+                    <e p="FieldDrawerAttribute.cs" t="Include" />
+                    <e p="IAttribute.cs" t="Include" />
+                    <e p="MethodDrawerAttribute.cs" t="Include" />
+                    <e p="NativePropertyDrawerAttribute.cs" t="Include" />
+                    <e p="PropertyDrawConditionAttribute.cs" t="Include" />
+                    <e p="PropertyDrawerAttribute.cs" t="Include" />
+                    <e p="PropertyGrouperAttribute.cs" t="Include" />
+                    <e p="PropertyMetaAttribute.cs" t="Include" />
+                    <e p="PropertyValidatorAttribute.cs" t="Include" />
+                  </e>
+                  <e p="CodeGeneration" t="Include">
+                    <e p="CodeGenerator.cs" t="Include" />
+                    <e p="FieldDrawerDatabase.cs" t="Include" />
+                    <e p="MethodDrawerDatabase.cs" t="Include" />
+                    <e p="NativePropertyDrawerDatabase.cs" t="Include" />
+                    <e p="PropertyDrawConditionDatabase.cs" t="Include" />
+                    <e p="PropertyDrawerDatabase.cs" t="Include" />
+                    <e p="PropertyGrouperDatabase.cs" t="Include" />
+                    <e p="PropertyMetaDatabase.cs" t="Include" />
+                    <e p="PropertyValidatorDatabase.cs" t="Include" />
+                    <e p="Templates" t="Include">
+                      <e p="FieldDrawerDatabaseTemplate.txt" t="Include" />
+                      <e p="MethodDrawerDatabaseTemplate.txt" t="Include" />
+                      <e p="NativePropertyDrawerDbTemplate.txt" t="Include" />
+                      <e p="PropertyDrawConditionDatabaseTemplate.txt" t="Include" />
+                      <e p="PropertyDrawerDatabaseTemplate.txt" t="Include" />
+                      <e p="PropertyGrouperDatabaseTemplate.txt" t="Include" />
+                      <e p="PropertyMetaDatabaseTemplate.txt" t="Include" />
+                      <e p="PropertyValidatorDatabaseTemplate.txt" t="Include" />
+                    </e>
+                  </e>
+                  <e p="Editors" t="Include">
+                    <e p="InspectorEditor.cs" t="Include" />
+                  </e>
+                  <e p="FieldDrawers" t="Include">
+                    <e p="FieldDrawer.cs" t="Include" />
+                    <e p="ShowNonSerializedFieldFieldDrawer.cs" t="Include" />
+                  </e>
+                  <e p="MethodDrawers" t="Include">
+                    <e p="ButtonMethodDrawer.cs" t="Include" />
+                    <e p="MethodDrawer.cs" t="Include" />
+                  </e>
+                  <e p="NativePropertyDrawers" t="Include">
+                    <e p="NativePropertyDrawer.cs" t="Include" />
+                    <e p="ShowNativePropertyNativePropertyDrawer.cs" t="Include" />
+                  </e>
+                  <e p="PropertyDrawConditions" t="Include">
+                    <e p="HideIfPropertyDrawCondition.cs" t="Include" />
+                    <e p="PropertyDrawCondition.cs" t="Include" />
+                    <e p="ShowIfPropertyDrawCondition.cs" t="Include" />
+                  </e>
+                  <e p="PropertyDrawers" t="Include">
+                    <e p="DisableIfPropertyDrawer.cs" t="Include" />
+                    <e p="DropdownPropertyDrawer.cs" t="Include" />
+                    <e p="EnableIfPropertyDrawer.cs" t="Include" />
+                    <e p="MinMaxSliderPropertyDrawer.cs" t="Include" />
+                    <e p="ProgressBarPropertyDrawer.cs" t="Include" />
+                    <e p="PropertyDrawer.cs" t="Include" />
+                    <e p="ReadOnlyPropertyDrawer.cs" t="Include" />
+                    <e p="ReorderableListPropertyDrawer.cs" t="Include" />
+                    <e p="ResizableTextAreaPropertyDrawer.cs" t="Include" />
+                    <e p="ShowAssetPreviewPropertyDrawer.cs" t="Include" />
+                    <e p="SliderPropertyDrawer.cs" t="Include" />
+                  </e>
+                  <e p="PropertyGroupers" t="Include">
+                    <e p="BoxGroupPropertyGrouper.cs" t="Include" />
+                    <e p="PropertyGrouper.cs" t="Include" />
+                  </e>
+                  <e p="PropertyMetas" t="Include">
+                    <e p="InfoBoxPropertyMeta.cs" t="Include" />
+                    <e p="OnValueChangedPropertyMeta.cs" t="Include" />
+                    <e p="PropertyMeta.cs" t="Include" />
+                  </e>
+                  <e p="PropertyValidators" t="Include">
+                    <e p="MaxValuePropertyValidator.cs" t="Include" />
+                    <e p="MinValuePropertyValidator.cs" t="Include" />
+                    <e p="PropertyValidator.cs" t="Include" />
+                    <e p="RequiredPropertyValidator.cs" t="Include" />
+                    <e p="ValidateInputPropertyValidator.cs" t="Include" />
+                  </e>
+                  <e p="Utility" t="Include">
+                    <e p="EditorDrawUtility.cs" t="Include" />
+                    <e p="IOUtility.cs" t="Include" />
+                    <e p="PropertyUtility.cs" t="Include" />
+                    <e p="ReflectionUtility.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="OSA" t="Include">
+              <e p="Docs" t="Include">
+                <e p="Manual link.txt" t="Include" />
+                <e p="Migration guide from 3.2 to 4.0 or 4.1 link.txt" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="OSA" t="Include">
+                    <e p="Templates" t="Include">
+                      <e p="Scripts" t="Include">
+                        <e p="BasicGridAdapter.txt" t="Include" />
+                        <e p="BasicListAdapter.txt" t="Include" />
+                      </e>
+                      <e p="ScriptsChunks" t="Include">
+                        <e p="HeaderComment.txt" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+              </e>
+              <e p="PluginSupport" t="Include">
+                <e p="Playmaker" t="Include">
+                  <e p="readme.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="C.cs" t="Include" />
+                <e p="Core" t="Include">
+                  <e p="AbstractViewsHolder.cs" t="Include" />
+                  <e p="BaseItemViewsHolder.cs" t="Include" />
+                  <e p="BaseParams.cs" t="Include" />
+                  <e p="IOSA.cs" t="Include" />
+                  <e p="ISRIA.cs" t="Include" />
+                  <e p="ItemCountChangeMode.cs" t="Include" />
+                  <e p="ItemsDescriptor.cs" t="Include" />
+                  <e p="OSA.cs" t="Include" />
+                  <e p="OSAConst.cs" t="Include" />
+                  <e p="OSADebugger.cs" t="Include" />
+                  <e p="OSAInternal.cs" t="Include" />
+                  <e p="OSASubComponents.cs" t="Include" />
+                  <e p="Snapper8.cs" t="Include" />
+                  <e p="SRIA.cs" t="Include" />
+                </e>
+                <e p="CustomAdapters" t="Include">
+                  <e p="DateTimePicker" t="Include">
+                    <e p="DateTimePickerAdapter.cs" t="Include" />
+                    <e p="DateTimePickerDialog.cs" t="Include" />
+                  </e>
+                  <e p="GridView" t="Include">
+                    <e p="CellGroupViewsHolder.cs" t="Include" />
+                    <e p="CellViewsHolder.cs" t="Include" />
+                    <e p="GridAdapter.cs" t="Include" />
+                    <e p="GridParams.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="CustomParams" t="Include">
+                  <e p="BaseParamsWithPrefab.cs" t="Include" />
+                  <e p="BaseParamsWithPrefabAndData.cs" t="Include" />
+                  <e p="BaseParamsWithPrefabAndLazyData.cs" t="Include" />
+                </e>
+                <e p="DataHelpers" t="Include">
+                  <e p="LazyDataHelper.cs" t="Include" />
+                  <e p="LazyList.cs" t="Include" />
+                  <e p="SimpleDataHelper.cs" t="Include" />
+                </e>
+                <e p="Demos" t="Include">
+                  <e p="Chat" t="Include">
+                    <e p="ChatExample.cs" t="Include" />
+                    <e p="ChatSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="Common" t="Include">
+                    <e p="CommandPanels" t="Include">
+                      <e p="ButtonsWithOptionalInputPanel.cs" t="Include" />
+                      <e p="ButtonWithInputPanel.cs" t="Include" />
+                      <e p="LabelWithInputPanel.cs" t="Include" />
+                      <e p="LabelWithSliderPanel.cs" t="Include" />
+                      <e p="LabelWithToggle.cs" t="Include" />
+                      <e p="LabelWithToggles.cs" t="Include" />
+                      <e p="ScrollToPanel.cs" t="Include" />
+                      <e p="WithInputPanel.cs" t="Include" />
+                    </e>
+                    <e p="DemosUtil.cs" t="Include" />
+                    <e p="Drawer" t="Include">
+                      <e p="DrawerCommandPanel.cs" t="Include" />
+                    </e>
+                    <e p="LoadSceneOnClick.cs" t="Include" />
+                    <e p="OSATitle.cs" t="Include" />
+                    <e p="RectTransformEdgeDragger.cs" t="Include" />
+                    <e p="ResizeablePanel.cs" t="Include" />
+                    <e p="SceneEntries" t="Include">
+                      <e p="SceneEntry.cs" t="Include" />
+                    </e>
+                    <e p="ScreenAutoRotationPanel.cs" t="Include" />
+                    <e p="ShowOnlyOnPortraitOrientation.cs" t="Include" />
+                    <e p="SimpleFPSCounter.cs" t="Include" />
+                    <e p="SimpleImageColorBouncer.cs" t="Include" />
+                  </e>
+                  <e p="ContentSizeFitter" t="Include">
+                    <e p="ContentSizeFitterExample.cs" t="Include" />
+                    <e p="ContentSizeFitterSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="DateTimePicker" t="Include">
+                    <e p="DateTimePickerSimpleSceneEntry.cs" t="Include" />
+                    <e p="ShowDateTimePickerButton.cs" t="Include" />
+                  </e>
+                  <e p="Grid" t="Include">
+                    <e p="GridExample.cs" t="Include" />
+                    <e p="GridSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="Hierarchy" t="Include">
+                    <e p="HierarchyExample.cs" t="Include" />
+                    <e p="HierarchySceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="IncrementalItemFetch" t="Include">
+                    <e p="IncrementalItemFetchExample.cs" t="Include" />
+                    <e p="IncrementalItemFetchSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="ItemDragging" t="Include">
+                    <e p="ItemDraggingExample.cs" t="Include" />
+                    <e p="ItemDraggingSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="LoopingSpinners" t="Include">
+                    <e p="LoopingSpinnerExample.cs" t="Include" />
+                    <e p="LoopingSpinnersSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="Main" t="Include">
+                    <e p="MainExample.cs" t="Include" />
+                    <e p="MainSceneEntry.cs" t="Include" />
+                    <e p="ObjectsVirtualParent.cs" t="Include" />
+                  </e>
+                  <e p="MultiplePrefabs" t="Include">
+                    <e p="Models" t="Include">
+                      <e p="BaseModel.cs" t="Include" />
+                      <e p="BidirectionalModel.cs" t="Include" />
+                      <e p="ExpandableModel.cs" t="Include" />
+                    </e>
+                    <e p="MultiplePrefabsExample.cs" t="Include" />
+                    <e p="MultiplePrefabsSceneEntry.cs" t="Include" />
+                    <e p="SliderItemBehaviour.cs" t="Include" />
+                    <e p="ViewHolders" t="Include">
+                      <e p="BaseVH.cs" t="Include" />
+                      <e p="BidirectionalVH.cs" t="Include" />
+                      <e p="ExpandableVH.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="NestedScrollViews" t="Include">
+                    <e p="ChildGridExample.cs" t="Include" />
+                    <e p="NestedScrollViewsExample.cs" t="Include" />
+                    <e p="NestedScrollViewsSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="PageView" t="Include">
+                    <e p="PageViewExample.cs" t="Include" />
+                    <e p="PageViewSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="SelectAndDelete" t="Include">
+                    <e p="SelectAndDeleteExample.cs" t="Include" />
+                    <e p="SelectAndDeleteSceneEntry.cs" t="Include" />
+                  </e>
+                  <e p="Simple" t="Include">
+                    <e p="SimpleExample.cs" t="Include" />
+                    <e p="SimpleSceneEntry.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="BaseOSAWindow.cs" t="Include" />
+                  <e p="CEditor.cs" t="Include" />
+                  <e p="CreateOSAWindow.cs" t="Include" />
+                  <e p="CWiz.cs" t="Include" />
+                  <e p="InitOSAWindow.cs" t="Include" />
+                  <e p="MenuItems.cs" t="Include" />
+                </e>
+                <e p="frame8" t="Include">
+                  <e p="Common" t="Include">
+                    <e p="IInitializable8.cs" t="Include" />
+                    <e p="Singleton8.cs" t="Include" />
+                    <e p="UIUtils8.cs" t="Include" />
+                  </e>
+                  <e p="DotNETCoreCompat.cs" t="Include" />
+                  <e p="Extensions" t="Include">
+                    <e p="RectTransformExtensions.cs" t="Include" />
+                    <e p="TransformExtensions.cs" t="Include" />
+                    <e p="VectorExtensions.cs" t="Include" />
+                  </e>
+                  <e p="IScrollRectProxy.cs" t="Include" />
+                  <e p="ScrollbarFixer8.cs" t="Include" />
+                  <e p="ThirdParty" t="Include">
+                    <e p="UI" t="Include">
+                      <e p="ScrollRectNested.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Util" t="Include">
+                  <e p="DiscreteScrollbar.cs" t="Include" />
+                  <e p="ExpandCollapseOnClick.cs" t="Include" />
+                  <e p="InputFieldInScrollRectFixer.cs" t="Include" />
+                  <e p="IO" t="Include">
+                    <e p="RemoteImageBehaviour.cs" t="Include" />
+                    <e p="SimpleImageDownloader.cs" t="Include" />
+                  </e>
+                  <e p="ItemDragging" t="Include">
+                    <e p="DraggableItem.cs" t="Include" />
+                  </e>
+                  <e p="LongClickableItem.cs" t="Include" />
+                  <e p="PullToRefresh" t="Include">
+                    <e p="PullToRefreshBehaviour.cs" t="Include" />
+                    <e p="PullToRefreshGizmo.cs" t="Include" />
+                    <e p="PullToRefreshRotateGizmo.cs" t="Include" />
+                  </e>
+                  <e p="ScrollbarRotateOnPull.cs" t="Include" />
+                  <e p="ScrollViews" t="Include">
+                    <e p="NonInteractableScrollRect.cs" t="Include" />
+                    <e p="UnityScrollRectProxy.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="SimpleVersion" t="Include">
+                <e p="MyCell.cs" t="Include" />
+                <e p="MyController.cs" t="Include" />
+                <e p="SimpleCellView.cs" t="Include" />
+                <e p="SimpleScroller.cs" t="Include" />
+                <e p="SimpleViewHolder.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Reporter" t="Include">
+              <e p="MultiKeyDictionary.cs" t="Include" />
+              <e p="Reporter.cs" t="Include" />
+              <e p="ReporterGUI.cs" t="Include" />
+            </e>
+            <e p="YWXUtility" t="Include">
+              <e p="MVC" t="Include">
+                <e p="ApplicationBase.cs" t="Include" />
+                <e p="Controller.cs" t="Include" />
+                <e p="Model.cs" t="Include" />
+                <e p="MVC.cs" t="Include" />
+                <e p="SingletonMVC.cs" t="Include" />
+                <e p="View.cs" t="Include" />
+              </e>
+              <e p="Sound.cs" t="Include" />
+            </e>
+          </e>
+          <e p="XPlugin" t="Include">
+            <e p="Http" t="Include">
+              <e p="HttpManager.cs" t="Include" />
+              <e p="HttpRequest.cs" t="Include" />
+            </e>
+            <e p="Json" t="Include">
+              <e p="Collection" t="Include">
+                <e p="JArray.cs" t="Include" />
+                <e p="JCollection.cs" t="Include" />
+                <e p="JObject.cs" t="Include" />
+              </e>
+              <e p="IToJson.cs" t="Include" />
+              <e p="JException.cs" t="Include" />
+              <e p="JToken.cs" t="Include" />
+              <e p="JType.cs" t="Include" />
+              <e p="LitJson" t="Include">
+                <e p="JsonException.cs" t="Include" />
+                <e p="JsonIgnore.cs" t="Include" />
+                <e p="JsonMapper.cs" t="Include" />
+                <e p="JsonReader.cs" t="Include" />
+                <e p="JsonWriter.cs" t="Include" />
+                <e p="Lexer.cs" t="Include" />
+                <e p="ParserToken.cs" t="Include" />
+              </e>
+              <e p="Value" t="Include">
+                <e p="JBool.cs" t="Include" />
+                <e p="JDouble.cs" t="Include" />
+                <e p="JFloat.cs" t="Include" />
+                <e p="JInt.cs" t="Include" />
+                <e p="JLong.cs" t="Include" />
+                <e p="JNone.cs" t="Include" />
+                <e p="JNull.cs" t="Include" />
+                <e p="JString.cs" t="Include" />
+                <e p="JValue.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Localization" t="Include">
+              <e p="ComponentHelper" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="TextLocalizedHelperEditor.cs" t="Include" />
+                </e>
+                <e p="TextLocalizedHelper.cs" t="Include" />
+              </e>
+              <e p="LanguageEnum.cs" t="Include" />
+              <e p="Localization.cs" t="Include" />
+              <e p="LocalizedDict.cs" t="Include" />
+              <e p="LResources.cs" t="Include" />
+              <e p="ShowByLang.cs" t="Include" />
+              <e p="XLocalization" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="CodeScanner.cs" t="Include" />
+                  <e p="LocalizationMap.cs" t="Include" />
+                  <e p="TextScanner.cs" t="Include" />
+                </e>
+                <e p="LocalizedUtil.cs" t="Include" />
+                <e p="TextHelper.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Security" t="Include">
+              <e p="AES" t="Include">
+                <e p="AESFileUtil.cs" t="Include" />
+                <e p="AESKey.cs" t="Include" />
+                <e p="AESUtil.cs" t="Include" />
+                <e p="WWWFormAESExtention.cs" t="Include" />
+              </e>
+              <e p="AndroidSignature" t="Include">
+                <e p="AndroidSignature.cs" t="Include" />
+              </e>
+              <e p="AntiCheatValue" t="Include">
+                <e p="AntiCheat.cs" t="Include" />
+                <e p="cbool.cs" t="Include" />
+                <e p="cfloat.cs" t="Include" />
+                <e p="cint.cs" t="Include" />
+                <e p="clong.cs" t="Include" />
+              </e>
+              <e p="DES" t="Include">
+                <e p="DESFileUtil.cs" t="Include" />
+                <e p="DESKey.cs" t="Include" />
+                <e p="DESUtil.cs" t="Include" />
+              </e>
+              <e p="Example" t="Include">
+                <e p="AESTest.cs" t="Include" />
+                <e p="DESTest.cs" t="Include" />
+              </e>
+              <e p="MD5" t="Include">
+                <e p="MD5Util.cs" t="Include" />
+              </e>
+              <e p="PlayerPrefExt" t="Include">
+                <e p="PlayerPrefsAES.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UIExtensions" t="Include">
+              <e p="Atlas" t="Include">
+                <e p="Atlas.cs" t="Include" />
+              </e>
+              <e p="ClipImageByMoveVert.cs" t="Include" />
+              <e p="FillRateOpt" t="Include">
+                <e p="Empty4Raycast.cs" t="Include" />
+                <e p="PolygonImage.cs" t="Include" />
+              </e>
+              <e p="RowImagePot" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="RawPotSpriteEditor.cs" t="Include" />
+                </e>
+                <e p="RawImagePot.cs" t="Include" />
+              </e>
+              <e p="SoulStoneClipEffect.cs" t="Include" />
+              <e p="Test" t="Include">
+                <e p="TestUGUIGrey.cs" t="Include" />
+              </e>
+              <e p="UGUI_Grey" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="UI-Default-Grey.shader" t="Include" />
+                </e>
+                <e p="UGUIGrey.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Update" t="Include">
+              <e p="Editor" t="Include">
+                <e p="BuildABWindow.cs" t="Include" />
+                <e p="BuildAssetBundle.cs" t="Include" />
+                <e p="UpdateUtilityMenu.cs" t="Include" />
+              </e>
+              <e p="ResMod" t="Include">
+                <e p="AssetBundleExtension.cs" t="Include" />
+                <e p="ResManager.cs" t="Include" />
+                <e p="UResources.cs" t="Include" />
+              </e>
+              <e p="UIUtil" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="UIUpdateMenu.cs" t="Include" />
+                </e>
+                <e p="Res" t="Include">
+                  <e p="ImageSpriteReassign.cs" t="Include" />
+                  <e p="TextFontFix.cs" t="Include" />
+                  <e p="TextFontReassign.cs" t="Include" />
+                  <e p="UIUpdateUtil.cs" t="Include" />
+                </e>
+              </e>
+              <e p="UpdateMod" t="Include">
+                <e p="IUpdateListener.cs" t="Include" />
+                <e p="MainPakIndex.cs" t="Include" />
+                <e p="Patch.cs" t="Include" />
+                <e p="PatchIndex.cs" t="Include" />
+                <e p="UpdateManager.cs" t="Include" />
+                <e p="UpdateType.cs" t="Include" />
+              </e>
+              <e p="UpdaterLog.cs" t="Include" />
+            </e>
+            <e p="XUI" t="Include">
+              <e p="UIBehaviour.cs" t="Include" />
+              <e p="UIPool" t="Include">
+                <e p="IUIPoolBehaviour.cs" t="Include" />
+                <e p="UIPool.cs" t="Include" />
+                <e p="UIPoolObjList.cs" t="Include" />
+                <e p="UIPoolTest.cs" t="Include" />
+              </e>
+              <e p="UIStack" t="Include">
+                <e p="GameObjectExtension.cs" t="Include" />
+                <e p="IUIStackBehaviour.cs" t="Include" />
+                <e p="Test" t="Include">
+                  <e p="ActivePanelDialog.cs" t="Include" />
+                  <e p="MsgTest.cs" t="Include" />
+                  <e p="UIStackTest.cs" t="Include" />
+                </e>
+                <e p="UIItem.cs" t="Include" />
+                <e p="UIMod.cs" t="Include" />
+                <e p="UIPage.cs" t="Include" />
+                <e p="UIStack.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TestProject.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
