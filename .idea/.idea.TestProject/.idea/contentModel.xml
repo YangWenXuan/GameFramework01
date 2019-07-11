@@ -61,6 +61,7 @@
         </e>
         <e p="Miscellaneous" t="Include">
           <e p="CatchMessageObj.cs" t="Include" />
+          <e p="DataGame.cs" t="Include" />
           <e p="GooglePlayManager.cs" t="Include" />
           <e p="GooglePlayTest.cs" t="Include" />
           <e p="Leaderboard.cs" t="Include" />

@@ -80,6 +80,7 @@
     <Compile Include="Assets\_UI\Scripts_UI\Utility\ScreenFit.cs" />
     <Compile Include="Assets\_UI\Scripts_UI\Utility\UIEventTriggerListener.cs" />
     <Compile Include="Assets\Miscellaneous\CatchMessageObj.cs" />
+    <Compile Include="Assets\Miscellaneous\DataGame.cs" />
     <Compile Include="Assets\Miscellaneous\GooglePlayManager.cs" />
     <Compile Include="Assets\Miscellaneous\GooglePlayTest.cs" />
     <Compile Include="Assets\Miscellaneous\Leaderboard.cs" />
