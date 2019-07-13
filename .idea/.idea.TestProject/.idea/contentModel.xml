@@ -17,6 +17,7 @@
         </e>
         <e p="_Game" t="Include">
           <e p="Game.cs" t="Include" />
+          <e p="StaticData.cs" t="Include" />
         </e>
         <e p="_UI" t="Include">
           <e p="Localized" t="Include">

@@ -9,7 +9,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace Game
+namespace LTHUtility
 {
 		public class DontDestroyThis : MonoBehaviour
 		{
