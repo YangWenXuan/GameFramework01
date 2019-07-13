@@ -283,6 +283,7 @@
     <Compile Include="Assets\Plugins\ThirdParty\Reporter\MultiKeyDictionary.cs" />
     <Compile Include="Assets\Plugins\ThirdParty\Reporter\Reporter.cs" />
     <Compile Include="Assets\Plugins\ThirdParty\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\JundgeToday.cs" />
     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\ApplicationBase.cs" />
     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\Controller.cs" />
     <Compile Include="Assets\Plugins\ThirdParty\YWXUtility\MVC\Model.cs" />

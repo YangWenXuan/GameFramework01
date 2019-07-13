@@ -271,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22416488, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.000045776367
       objectReference: {fileID: 0}
     - target: {fileID: 22416566, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_AnchorMin.y
@@ -869,33 +869,9 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.00000071525574
       objectReference: {fileID: 0}
-    - target: {fileID: 116534, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 22416570, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.74472046
-      objectReference: {fileID: 0}
-    - target: {fileID: 116558, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11416564, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: sceneName
-      value: example
-      objectReference: {fileID: 0}
-    - target: {fileID: 11416564, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: loadMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11416638, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: sceneName
-      value: content_size_fitter
-      objectReference: {fileID: 0}
-    - target: {fileID: 11416638, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
-      propertyPath: loadMode
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22416564, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -920,6 +896,30 @@ PrefabInstance:
     - target: {fileID: 22416526, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1.2999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 116534, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 116558, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416564, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: sceneName
+      value: example
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416564, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: loadMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416638, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: sceneName
+      value: content_size_fitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 11416638, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
+      propertyPath: loadMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11416676, guid: 64377ab9e36b1a94aa670f636904b881, type: 3}
       propertyPath: m_Text

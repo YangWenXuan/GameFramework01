@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using UnityEngine;
+﻿using UnityEngine;
 
 //这是一个工具类，没有其他依赖，挂载到场景中的某一个游戏物体上
 public class Sound : Singleton<Sound>

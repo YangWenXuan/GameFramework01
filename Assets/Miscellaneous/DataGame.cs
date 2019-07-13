@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net.Mime;
-using UnityEngine;
 using XPlugin.Data.Json;
 namespace GameTest {
 
@@ -12,7 +10,6 @@ namespace GameTest {
     }
     
     public class DataGame : IToJson {
-
         public DateTime date;
         public GameDifficulty difficulty;
         public List<DataBlock> dataBlocks = new List<DataBlock>();
@@ -21,7 +18,6 @@ namespace GameTest {
         public float timeSpend;
         public long saveTime;
         public bool isInGame;
-        
         
         public JObject ToJson() {
             JObject result=new JObject();
@@ -38,6 +34,9 @@ namespace GameTest {
         public static DataGame FromJson(string json) {
             DataGame game=new DataGame();
             JObject root = JObject.Parse(json);
+            
+            //解析List类型，需要特殊处理.
+            game.dataBlocks = root["dataBlocks"].AsArray().ToList(token => DataBlock.FromJson(token.AsObject()));
             game.difficulty = root["difficulty"].AsEnum<GameDifficulty>();
             game.level = root["level"].AsInt();
             game.saveTime = root["saveTime"].AsLong();
@@ -72,7 +71,6 @@ namespace GameTest {
             ret.userAnswer = root["userAnswer"].AsInt();
             ret.trap = root["trap"].AsBool();
             ret.hintNum = root["hintNum"].AsArray().ToArray(token => token.AsBool());
-
             return ret;
         }
     }
